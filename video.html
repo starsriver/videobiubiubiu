@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html lang="zhCN">
+    <head>
+    <meta charset="utf-8" content="text/html" />
+    <title>HTML5弹幕播放器开发版</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <script type="text/javascript" src="./main.js"></script>
+    </head>
+    <body onload="">
+    <div>
+        <video id="main_video" src="./1.mp4" autoplay controls onplaying="init();">您的浏览器不支持HTML5,请升级浏览器</video>
+        <canvas id="main_canvas">您的浏览器不支持HTML5,请升级浏览器</canvas>
+        <button type="button" onclick="playORpause();">Play/Pause</button>
+    </div>
+    </body>
+</html>
